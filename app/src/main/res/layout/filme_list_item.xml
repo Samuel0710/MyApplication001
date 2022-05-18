@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="8dp"
+    android:layout_marginTop="8dp">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/batmanNota"
+            android:layout_width="35dp"
+            android:layout_height="30dp"
+            android:layout_marginEnd="34dp"
+            android:text="7.8"
+            android:textColor="@color/black"
+            android:textSize="23sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.502"
+            app:layout_constraintStart_toEndOf="@+id/Batmanimg"
+            app:layout_constraintTop_toBottomOf="@+id/batmanTitle" />
+
+        <ImageView
+            android:id="@+id/Batmanimg"
+            android:layout_width="120dp"
+            android:layout_height="180dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0"
+            app:srcCompat="@drawable/wd7b4nv9qbhdtijc2m7sr0iumoh" />
+
+        <TextView
+            android:id="@+id/batmanTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="34dp"
+            android:text="Batman"
+            android:textColor="@color/black"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/Batmanimg"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/resume_sinopse"
+            android:layout_width="259dp"
+            android:layout_height="90dp"
+            android:background="#000000"
+            android:fontFamily="sans-serif-black"
+            android:maxLines="5"
+            android:text="Após dois anos espreitando as ruas como Batman e aterrorizando o mundo do crime, Bruce Wayne se encontra nas profundezas mais sombrias de Gotham City. Com pouquíssimos aliados confiáveis dentro da rede corrupta de autoridades e grandes figuras da cidade, o vigilante solitário se estabeleceu como a personificação da vingança para a população.Agora, quando um assassino tem a elite de Gotham vítima de uma série de tramas sadistas, a trilha de pistas crípticas leva o Maior Detetive do Mundo em uma investigação no submundo, onde encontra Carmine Falcone, Selina Kyle, vulga Mulher-Gato, Oswald Cobblepot, vulgo Pinguim, e Edward Nashton, vulgo Charada. Conforme as evidências atingem um nível pessoal e a dimensão dos planos do responsável se torna mais clara, o Batman deve forjar novas alianças, desmascarar o culpado e trazer justiça ao abuso de poder e corrupção que a tanto tempo atormenta Gotham City."
+            android:textColor="@color/white"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/Batmanimg"
+            app:layout_constraintTop_toBottomOf="@+id/batmanNota" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="25dp"
+            android:layout_height="29dp"
+            app:layout_constraintEnd_toStartOf="@+id/batmanNota"
+            app:layout_constraintHorizontal_bias="0.809"
+            app:layout_constraintStart_toEndOf="@+id/Batmanimg"
+            app:layout_constraintTop_toTopOf="@+id/batmanNota"
+            app:srcCompat="@drawable/star_1024x974" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

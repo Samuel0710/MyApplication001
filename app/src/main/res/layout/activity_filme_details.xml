@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_red_dark">
+
+    <ImageView
+        android:id="@+id/Batmanimg2"
+        android:layout_width="323dp"
+        android:layout_height="332dp"
+        android:layout_marginTop="4dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/batmanTitle2"
+        app:srcCompat="@drawable/wd7b4nv9qbhdtijc2m7sr0iumoh" />
+
+    <TextView
+        android:id="@+id/resume_sinopse2"
+        android:layout_width="355dp"
+        android:layout_height="262dp"
+        android:layout_marginBottom="108dp"
+        android:background="#000000"
+        android:fontFamily="sans-serif-black"
+        android:text="Após dois anos espreitando as ruas como Batman e aterrorizando o mundo do crime, Bruce Wayne se encontra nas profundezas mais sombrias de Gotham City. Com pouquíssimos aliados confiáveis dentro da rede corrupta de autoridades e grandes figuras da cidade, o vigilante solitário se estabeleceu como a personificação da vingança para a população.Agora, quando um assassino tem a elite de Gotham vítima de uma série de tramas sadistas, a trilha de pistas crípticas leva o Maior Detetive do Mundo em uma investigação no submundo, onde encontra Carmine Falcone, Selina Kyle, vulga Mulher-Gato, Oswald Cobblepot, vulgo Pinguim, e Edward Nashton, vulgo Charada. Conforme as evidências atingem um nível pessoal e a dimensão dos planos do responsável se torna mais clara, o Batman deve forjar novas alianças, desmascarar o culpado e trazer justiça ao abuso de poder e corrupção que a tanto tempo atormenta Gotham City."
+        android:textColor="@color/white"
+        android:textSize="13sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.578"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/batmanNota1"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="37dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toStartOf="@+id/batmanNota1"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Batmanimg2"
+        app:srcCompat="@drawable/star_1024x974" />
+
+    <TextView
+        android:id="@+id/batmanNota1"
+        android:layout_width="49dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="8dp"
+        android:text="7.8"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Batmanimg2" />
+
+    <TextView
+        android:id="@+id/batmanTitle2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Batman"
+        android:textColor="@color/black"
+        android:textSize="38sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.474"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

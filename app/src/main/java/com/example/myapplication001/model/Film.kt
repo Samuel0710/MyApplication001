@@ -1,0 +1,96 @@
+package com.example.myapplication001.model
+
+data class Film(
+    val adult: Boolean,
+    val backdrop_path: String,
+    val genre_ids: List<Int>,
+    val id: Int,
+    val original_language: String,
+    val original_title: String,
+    val overview: String,
+    val popularity: Double,
+    val poster_path: String,
+    val release_date: String,
+    val title: String,
+    val vote_average: Double,
+    val vote_count: Int,
+)
+fun mockFilm (): List<Film> = listOf(
+
+    Film(
+        adult = true,
+     backdrop_path="d",
+     genre_ids = listOf(3,2,3),
+        id=1,
+        original_language = "Inglês",
+        original_title = "BATMAN",
+        overview = "E",
+        popularity = 2.22222,
+        poster_path = "7.8",
+        release_date = "B",
+        title = "Após dois anos espreitando as ruas como Batman e aterrorizando o mundo do crime, Bruce Wayne se encontra nas profundezas mais sombrias de Gotham City. Com pouquíssimos aliados confiáveis dentro da rede corrupta de autoridades e grandes figuras",
+        vote_average=2.00,
+        vote_count=1
+    ),
+
+    Film(
+        adult = true,
+        backdrop_path="d",
+        genre_ids = listOf(3,2,3),
+        id=1,
+        original_language = "Inglês",
+        original_title = "Title",
+        overview = "E",
+        popularity = 2.22222,
+        poster_path = "C",
+        release_date = "B",
+        title = "texts_general",
+        vote_average=2.00,
+        vote_count=1
+    ),
+    Film(
+        adult = true,
+        backdrop_path="d",
+        genre_ids = listOf(3,2,3),
+        id=1,
+        original_language = "Inglês",
+        original_title = "Title",
+        overview = "E",
+        popularity = 2.22222,
+        poster_path = "C",
+        release_date = "B",
+        title = "texts_general",
+        vote_average=2.00,
+        vote_count=1
+    ),
+    Film(
+        adult = true,
+        backdrop_path="d",
+        genre_ids = listOf(3,2,3),
+        id=1,
+        original_language = "Inglês",
+        original_title = "Title",
+        overview = "E",
+        popularity = 2.22222,
+        poster_path = "C",
+        release_date = "B",
+        title = "texts_general",
+        vote_average=2.00,
+        vote_count=1
+    ),
+    Film(
+        adult = true,
+        backdrop_path="d",
+        genre_ids = listOf(3,2,3),
+        id=1,
+        original_language = "Inglês",
+        original_title = "Title",
+        overview = "E",
+        popularity = 2.22222,
+        poster_path = "C",
+        release_date = "B",
+        title = "texts_general",
+        vote_average=2.00,
+        vote_count=1
+    ),
+)
